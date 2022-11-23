@@ -12,12 +12,14 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 150px;
+    gap: 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     font-size: 24px;
+    align-items: center;
 }
 
 .welcome {
@@ -41,11 +43,46 @@ body {
     color: #E5E7EB
 }
 
+#random {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#random h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.boxes img {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 210px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    gap: 20px;
 }
 
 a { 
