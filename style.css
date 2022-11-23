@@ -39,7 +39,7 @@ button {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 150px;
-    gap: 100px;
+    gap: 50px;
 }
 
 .header {
@@ -52,6 +52,7 @@ button {
 .welcome {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .read {
@@ -75,8 +76,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 #random h2 {
@@ -100,12 +101,11 @@ button {
 .card {
     display: flex;
     flex-direction: column;
-
     width: 210px;
 }
 
 .quote {
-    background-color: gray;
+    background-color: rgb(175, 175, 175);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,8 +116,8 @@ button {
 .quote h4 {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    color: #1F2937
+    font-weight: 100;
+    color: #1F2937;
 }
 
 .quote p {
@@ -126,3 +126,50 @@ button {
     align-self: flex-end;
     margin-top: -40px;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px
+}
+
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    padding: 25px 50px;
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 800px;
+    flex-shrink: 0;
+    gap: 30px;
+}
+
+.call h5 {
+    font-size: 24px;
+}
+
+.call p {
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+.call button {
+    border: 2px solid white;
+    height: 35px;
+    width: 110px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+}
+    
